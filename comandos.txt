@@ -6,6 +6,12 @@ Comandos
 5.db.createUser(userDocument)
 6.db.dropUser(username)
 
+7db.collectionName.updateMany({filter},{Set Command})
+Actualizar un archivo
+
+8. db.collectionName.insertOne({document})
+insertar uno
+
 
 Descripcion
 1-Muestra todas las bases de datos
