@@ -13,6 +13,7 @@ Comandos
 12. db."nombre de la coleccion".drop()
 13.db.<collection>.count({query})
 14. $push
+15.-$elemMatch
 
 
 Descripcion
@@ -28,6 +29,6 @@ Descripcion
 10. insertar muchos
 11. Eliminar base de datos.
 12. Eliminae collection.
-
 13. Cuenta son mas
 14. Agrega valores a arreglo
+15.- Para buscar dentro de un arreglo
