@@ -7,3 +7,7 @@ Descripcion
 1-Muestra todas las bases de datos
 2-Selecciona la base de datos
 3-Permite cambiar el nombre a una colección
+
+EccoEdd
+#1 db.personas.count({ name : "Ramiro", "age" : { $gt: 18 } })
+#2 db.personas.update({ name : "Kobeni"},{$set: {last_name: "Higashiyama", $push : { phone: "871234567253" }}})
